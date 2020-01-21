@@ -1,17 +1,33 @@
 {
-  "name": "repo-template-javascript",
+  "name": "fireworks",
   "version": "1.0.0",
-  "description": "repo template for javascript",
-  "repository": "git@github.com:samuraime/repo-template-javascript.git",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": "git@github.com:samuraime/fireworks.git",
   "author": "SamuraiMe <samurai7@foxmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "clean-webpack-plugin": "^3.0.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-import": "^2.20.0",
+    "html-webpack-plugin": "^3.2.0",
     "husky": "^4.0.10",
     "lint-staged": "^10.0.1",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "three": "^0.112.1"
   }
 }
